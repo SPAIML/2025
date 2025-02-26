@@ -488,8 +488,6 @@ button:focus,
 .team .thumbnail h3 {
     font-size: 16px;
     font-weight: bold;
-
-    margin: 0 40px;
     text-transform: uppercase;
     padding: 10px 0;
 }
