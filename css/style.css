@@ -569,6 +569,18 @@ button:focus,
     display: block;
 }
 
+.copytext > p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.25em;
+}
+
+.copytext-divider {
+    margin: 10px auto;
+    border: 0.5px solid white;
+    width: 50px;
+}
+
 /* ---------------------------------------------- /*
  * Preloader
 /* ---------------------------------------------- */
