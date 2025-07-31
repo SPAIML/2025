@@ -61,7 +61,7 @@
                         <a class="nav-link" href="#section-cfp">Call for Papers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-papers">Accepted Papers</a>
+                        <a class="nav-link" href="#section-program">Program</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#section-registration">Register</a>
@@ -361,40 +361,238 @@
         </section>
         -->
 
-        <section id="section-papers" class="section-wrapper about-event">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h1>ACCEPTED PAPERS</h1>
+ <section id="section-program" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>TECHNICAL PROGRAM</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-2">14:00 - 14:10</div>
+                <div class="agenda-point col-sm-10">Opening Remarks</div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-2">14:10 - 15:30</div>
+                <div class="agenda-point col-sm-10">Paper Presentations</div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/alignment.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Alignment and Adversarial Robustness: Are More Human-Like Models More Secure?
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Blaine Hoak, Kunyang Li and Patrick McDaniel
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper1"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper1">
+                            <div class="abstract card card-body">
+                                A small but growing body of work has shown that machine learning models which better align with human vision have also exhibited higher robustness to adversarial examples, raising the question: can human-like perception make models more secure? If true generally, such mechanisms would offer new avenues toward robustness. In this work, we conduct a large-scale empirical analysis to systematically investigate the relationship between representational alignment and adversarial robustness. We evaluate 144 models spanning diverse architectures and training paradigms, measuring their neural and behavioral alignment and engineering task performance across 105 benchmarks as well as their adversarial robustness via AutoAttack. Our findings reveal that while average alignment and robustness exhibit a weak overall correlation, specific alignment benchmarks serve as strong predictors of adversarial robustness, particularly those that measure selectivity toward texture or shape. These results suggest that different forms of alignment play distinct roles in model robustness, motivating further investigation into how alignment-driven approaches can be leveraged to build more secure and perceptually-grounded vision models.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <ul>
-                        <li>
-                            <b>Alignment and Adversarial Robustness: Are More Human-Like Models More Secure?</b> by Blaine Hoak, Kunyang Li and Patrick McDaniel
-                        </li>
-                        <li>
-                            <b>Collaborative Reinforcement Learning for Cyber Defense: Analysis of Strategies, and Policies</b> by Davide Rigoni, Rafael F. Cunha, Frank Fransen, Puck de Haan, Amir Javadpour and Fatih Turkmen
-                        </li>
-                        <li>
-                            <b>Experimental Evaluation of Non-Natural Language Prompt Injection Attacks on LLMs</b> by Huynh Phuong Thanh Nguyen, Shivang Kumar, Katsutoshi Yotsuyanagi and Razvan Beuran
-                        </li>
-                        <li>
-                            <b>Language Models in Cybersecurity: A Comparative Approach to Task-Driven Model Assessment</b> by Holger Schmidt, Klaus Kaiser and Daniel Spiekermann
-                        </li>
-                        <li>
-                            <b>Preliminary Investigation into Uncertainty-Aware Attack Stage Classification</b> by Alessandro Gaudenzi, Lorenzo Nodari, Lance Kaplan, Alessandra Russo, Murat Sensoy and Federico Cerutti
-                        </li>
-                        <li>
-                            <b>Seed Scheduling in Fuzz Testing as a Markov Decision Process</b> by Rafael Fernandes Cunha, Luca Müller, Thomas Rooijakkers, Puck de Haan and Fatih Turkmen
-                        </li>
-                        <li>
-                            <b>TAIBOM: Bringing Trustworthiness to AI-Enabled Systems</b> by Vadim Safronov, Anthony McCaigue, Nick Allott and Andrew Martin
-                        </li>
-                    </ul>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/collab.png" style="width: 100%">
                 </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Collaborative Reinforcement Learning for Cyber Defense: Analysis of Strategies, and Policies
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Davide Rigoni, Rafael F. Cunha, Frank Fransen, Puck de Haan, Amir Javadpour and Fatih Turkmen
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper2"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper2">
+                            <div class="abstract card card-body">
+                                As cybersecurity threats grow in scale and sophistication, traditional defenses increasingly struggle to detect and counter such attacks. Recent advancements leverage reinforcement learning to develop adaptive defensive agents, yet challenges remain, particularly around how agents learn, in what environments, and what strategies they acquire. These complexities intensify in multi-agent scenarios, where coordinating collaborative defenses becomes especially demanding.
+                                This paper provides an empirical analysis of (collaborative) reinforcement learning for cybersecurity defense, examining key components such as environment models, RL methods, and agent policies.
+                                More specifically, a range of multi-agent reinforcement learning algorithms are compared in the context of CAGE Challenge 4 when determining optimal defense configurations. Moreover, the study evaluates the policies learned by the agents to assess their applicability to real-world scenarios, highlighting areas where agent strategies may diverge from effective, practical defense.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/experiment.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Experimental Evaluation of Non-Natural Language Prompt Injection Attacks on LLMs
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Huynh Phuong Thanh Nguyen, Shivang Kumar, Katsutoshi Yotsuyanagi and Razvan Beuran
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper3"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper3">
+                            <div class="abstract card card-body">
+                                Prompt injection attacks insert malicious instructions into large language model (LLM) input prompts to bypass their safety measures and produce harmful output. While various defense techniques, such as data filtering and prompt injection detection, have been proposed to protect LLMs, they primarily address natural language attacks. When faced with unusual, unstructured, or non-natural language (Non-NL) prompt injection, these defenses become ineffective, leaving LLMs vulnerable. In this paper, we present a methodology for evaluating LLMs' ability to handle Non-NL prompt injections, and also propose defense strategies against these attacks. To demonstrate the usability of our methodology, we tested 14 common LLMs to evaluate their existing safety capabilities. Our results showed a high attack success rate across all LLMs when faced with Non-NL prompt injection, ranging from 0.38 to 0.52, which emphasizes the need for stronger defense measures.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/preliminary.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Preliminary Investigation into Uncertainty-Aware Attack Stage Classification                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Alessandro Gaudenzi, Lorenzo Nodari, Lance Kaplan, Alessandra Russo, Murat Sensoy and Federico Cerutti
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper4"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper4">
+                            <div class="abstract card card-body">
+                                Advanced Persistent Threats (APTs) represent a significant challenge in cybersecurity due to their prolonged, multi-stage nature and the sophistication of their operators. Traditional detection systems typically focus on identifying malicious activity in binary terms - benign or malicious - without accounting for the progression of an attack. However, effective response strategies depend on accurate inference of the attack’s current stage, as countermeasures must be tailored to whether an adversary is in the early reconnaissance phase or actively conducting exploitation or exfiltration.
+                                This work addresses the problem of attack stage inference under uncertainty, with a focus on robustness to out-of-distribution (OOD) inputs. We propose a classification approach based on Evidential Deep Learning (EDL), which models predictive uncertainty by outputting parameters of a Dirichlet distribution over possible stages. This allows the system not only to predict the most likely stage of an attack but also to indicate when it is uncertain or the input lies outside the training distribution.
+                                Preliminary experiments in a simulated environment demonstrate that the proposed model can accurately infer the stage of an attack with calibrated confidence while effectively detecting OOD inputs, which may indicate changes in the attackers' tactics. These results support the feasibility of deploying uncertainty-aware models for staged threat detection in dynamic and adversarial environments.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-2">15:30 - 16:00</div>
+                <div class="agenda-point col-sm-10">Coffee Break</div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-2">16:00 - 16:40</div>
+                <div class="agenda-point col-sm-10">Keynote: <span class="agenda-title">TBD</span></div>
+
+                <figure class="thumbnail col-sm-4">
+                    <!--
+                    <a href="" target="_blank">
+                        <img src="" width="100%" class="img-responsive" alt="Image">
+                    </a>
+                    -->
+                </figure>
+                <div class="col-sm-8">
+                    <div class="speaker">
+
+                    </div>
+                    <p class="lead" align="justify">
+                    </p>
+                </div>
+            </div>
+ 
+            <div class="row">
+                <div class="time col-sm-2">16:40 - 17:40</div>
+                <div class="agenda-point col-sm-10">Paper Presentations</div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/language.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Language Models in Cybersecurity: A Comparative Approach to Task-Driven Model Assessment                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Holger Schmidt, Klaus Kaiser and Daniel Spiekermann
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper5"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper5">
+                            <div class="abstract card card-body">
+                                Large language models (LLMs) have demonstrated impressive general-purpose capabilities across a wide range of computational tasks. However, their substantial resource demands and integration constraints raise critical concerns for deployment in security-sensitive scenarios. In response, small language models (SLMs) and tiny language models (TLMs) have gained attention as lightweight, adaptable alternatives - especially when operational context and task requirements are well understood.
+                                This paper provides a task-driven approach to language model (LM) assessment, emphasizing that the largest LM is not always the optimal choice. We conduct a systematic analysis of representative tasks from cybersecurity, i. e. especially from the fields of secure software development and digital forensics, and extract key technical and operational characteristics. By mapping these characteristics profiles to properties of different LM classes, we identify practical scenarios where SLMs or TLMs are not only sufficient but preferable.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/seed.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        Seed Scheduling in Fuzz Testing as a Markov Decision Process
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Rafael Fernandes Cunha, Luca Müller, Thomas Rooijakkers, Puck de Haan and Fatih Turkmen
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper6"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper6">
+                            <div class="abstract card card-body">
+                                Coverage-guided Greybox Fuzzing (CGF) is an effective method for discovering software vulnerabilities.
+                                Traditional fuzzers, such as AFL, rely on heuristics for critical tasks like seed scheduling, which often lack adaptability and may not optimally balance exploration with exploitation.
+                                This paper presents a novel approach to enhance seed scheduling in CGF by formalizing it as a Markov Decision Process (MDP).
+                                We detail the design of this MDP, including the state representation derived from fuzzer and coverage data, the action space encompassing seed selection and power assignment, and a reward function geared towards maximizing coverage and bug discovery.
+                                A Proximal Policy Optimization (PPO) agent is then trained to learn a scheduling policy from this MDP within the AFL++ fuzzer.
+                                Our investigation into this Deep Reinforcement Learning (DRL) based approach reveals that while the MDP formulation provides a structured framework, practical application faces significant challenges, including high computational demands for training and intensive hyperparameter tuning.
+                                The key contributions of this work are: (1) a concrete MDP formulation for the complex task of fuzzer seed scheduling, (2) an analysis of the inherent difficulties and trade-offs in applying DRL to this specific domain, and (3) insights gained from the agent's learning process (or lack thereof), which inform the discussion on the suitability of DRL for this type of optimization problem in fuzzing.
+                                This research provides a foundational exploration of DRL for seed scheduling and highlights critical considerations for future advancements in intelligent fuzzing agents.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="pubs_img" src="papers/taibom.png" style="width: 100%">
+                </div>
+                <div class="paper-title col-sm-8">
+                    <div class="pubs_title">
+                        TAIBOM: Bringing Trustworthiness to AI-Enabled Systems
+                    </div>
+                    <span>
+                        <b style="text-decoration: underline">Authors:</b>
+                        Vadim Safronov, Anthony McCaigue, Nick Allott and Andrew Martin
+                    </span>
+                    <div class="abstract">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePaper7"
+                                                                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Read Abstract
+                        </a>
+                        <div class="collapse" id="collapsePaper7">
+                            <div class="abstract card card-body">
+                                The growing integration of open-source software and AI-driven technologies has introduced new layers of complexity into the software supply chain, challenging existing methods for dependency management and system assurance. While Software Bills of Materials (SBOMs) have become critical for enhancing transparency and traceability, current frameworks fall short in capturing the unique characteristics of AI systems - namely, their dynamic, data-driven nature and the loosely coupled dependencies across datasets, models, and software components. These challenges are compounded by fragmented governance structures and the lack of robust tools for ensuring integrity, trust, and compliance in AI-enabled environments.
+                                In this paper, we introduce Trusted AI Bill of Materials (TAIBOM) - a novel framework extending SBOM principles to the AI domain. TAIBOM provides (i) a structured dependency model tailored for AI components, (ii) mechanisms for propagating integrity statements across heterogeneous AI pipelines, and (iii) a trust attestation process for verifying component provenance. We demonstrate how TAIBOM supports assurance, security, and compliance across AI workflows, highlighting its advantages over existing standards such as SPDX and CycloneDX. This work lays the foundation for trustworthy and verifiable AI systems through structured software transparency.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="time col-sm-2">17:40 - 17:50</div>
+                <div class="agenda-point col-sm-10">Closing Remarks & Best Paper Award</div>
             </div>
         </section>
 
